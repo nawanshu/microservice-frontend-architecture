@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Micro FrontEnd Architecture</title>
+    <base href="#">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script type="slot" name="head"></script>
+    <!-- <script src="http://localhost:3031/dist/my-angularjs-app.bundle.js"></script> -->
+</head>
+
+<body>
+    <nav>
+        <h1>Navigation</h1>
+        <app-root-three></app-root-three>
+        <fragment src="http://localhost:3033"></fragment>
+    </nav>
+    <div>
+        <slot name="body-start"></slot>
+    </div>
+</body>
+</html>

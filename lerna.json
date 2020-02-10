@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "mini-fragment-apps/*"
+  ],
+  "version": "0.0.0"
+}

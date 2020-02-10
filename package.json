@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "node tailor.js",
+    "start-fragments": "lerna run --parallel start",
+    "watch-fragments": "lerna run --parallel watch"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "node-tailor": "^3.9.2"
+  }
+}
